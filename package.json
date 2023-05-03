@@ -1,0 +1,16 @@
+{
+  "name": "yarn-berry-s",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "shin",
+  "license": "shin",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "packageManager": "yarn@3.5.1",
+  "devDependencies": {
+    "typescript": "^5.0.4"
+  }
+}
